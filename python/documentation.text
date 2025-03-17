@@ -1,0 +1,13 @@
+Wikipedia Content Extractor and SQLite Integration
+
+This script extracts content (headings and paragraphs) from a Wikipedia page and stores the data in a SQLite database.
+
+Required Libraries:
+1.requests: For making HTTP requests to the target URL.
+2.BeautifulSoup(from bs4): For parsing HTML content.
+3.sqlite3: To interact with SQLite databases.
+
+The script:
+1. Fetches the HTML content from a Wikipedia page.
+2. Extracts data, such as headings and paragraphs, from the main content area.
+3. Stores the data in a SQLite database.
